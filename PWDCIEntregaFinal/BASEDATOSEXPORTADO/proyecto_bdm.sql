@@ -224,6 +224,7 @@ CREATE TABLE `curso_comprados` (
 
 LOCK TABLES `curso_comprados` WRITE;
 /*!40000 ALTER TABLE `curso_comprados` DISABLE KEYS */;
+INSERT INTO `curso_comprados` VALUES (3,1,900,'Anne',' Boonchuy','  Jr','Graficas en 3D',1,'2023-05-31 22:39:13'),(3,2,345,'Anne',' Boonchuy','  Jr','Curso De Ilustracion',1,'2023-05-31 22:38:37');
 /*!40000 ALTER TABLE `curso_comprados` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -255,6 +256,7 @@ CREATE TABLE `cursos_finalizados` (
 
 LOCK TABLES `cursos_finalizados` WRITE;
 /*!40000 ALTER TABLE `cursos_finalizados` DISABLE KEYS */;
+INSERT INTO `cursos_finalizados` VALUES (3,2,'Curso De Ilustracion',3,'2023-05-31 16:38:37','2023-05-31 16:38:46','2023-05-31 22:39:00'),(3,1,'Graficas en 3D',1,'2023-05-31 16:39:13','2023-05-31 16:38:46','2023-05-31 22:42:16');
 /*!40000 ALTER TABLE `cursos_finalizados` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -286,6 +288,7 @@ CREATE TABLE `diplomado` (
 
 LOCK TABLES `diplomado` WRITE;
 /*!40000 ALTER TABLE `diplomado` DISABLE KEYS */;
+INSERT INTO `diplomado` VALUES (3,2,'Anne','   Jr',' Boonchuy','Curso De Ilustracion','2023-05-31 22:39:00'),(3,1,'Anne','   Jr',' Boonchuy','Graficas en 3D','2023-05-31 22:42:00'),(3,1,'Anne','   Jr',' Boonchuy','Graficas en 3D','2023-05-31 22:42:16');
 /*!40000 ALTER TABLE `diplomado` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -313,7 +316,7 @@ CREATE TABLE `nivel_ultimovisto` (
 
 LOCK TABLES `nivel_ultimovisto` WRITE;
 /*!40000 ALTER TABLE `nivel_ultimovisto` DISABLE KEYS */;
-INSERT INTO `nivel_ultimovisto` VALUES (3,5,'2023-05-31 15:25:39'),(1,5,'2023-05-31 15:26:14'),(1,5,'2023-05-31 16:18:01'),(1,5,'2023-05-31 16:24:07'),(3,5,'2023-05-31 16:24:14'),(3,5,'2023-05-31 16:25:26'),(4,3,'2023-05-31 16:35:49'),(4,3,'2023-05-31 16:35:53'),(4,3,'2023-05-31 16:35:59'),(5,3,'2023-05-31 16:36:08'),(6,3,'2023-05-31 16:36:14'),(6,3,'2023-05-31 16:36:18'),(5,3,'2023-05-31 16:36:23'),(4,3,'2023-05-31 16:36:28'),(6,3,'2023-05-31 16:36:38'),(3,3,'2023-05-31 16:57:59'),(2,3,'2023-05-31 16:58:05'),(2,3,'2023-05-31 16:58:12'),(3,3,'2023-05-31 16:58:15'),(1,3,'2023-05-31 16:58:21'),(1,3,'2023-05-31 16:58:28'),(1,3,'2023-05-31 16:58:34'),(6,5,'2023-05-31 17:08:41'),(5,5,'2023-05-31 17:08:53'),(5,5,'2023-05-31 17:08:58'),(3,5,'2023-05-31 17:12:16'),(3,5,'2023-05-31 17:12:19'),(2,5,'2023-05-31 17:12:31'),(2,5,'2023-05-31 17:12:36'),(1,5,'2023-05-31 17:12:41'),(3,3,'2023-05-31 17:17:04'),(1,3,'2023-05-31 17:17:15'),(2,3,'2023-05-31 17:17:19'),(2,3,'2023-05-31 17:17:22'),(3,3,'2023-05-31 17:17:27'),(8,5,'2023-05-31 17:25:22'),(7,5,'2023-05-31 17:25:30'),(8,5,'2023-05-31 17:25:51'),(7,3,'2023-05-31 17:29:08'),(7,3,'2023-05-31 17:29:14'),(8,3,'2023-05-31 17:29:19'),(6,3,'2023-05-31 17:35:26'),(4,3,'2023-05-31 17:35:33'),(5,3,'2023-05-31 17:35:42'),(4,3,'2023-05-31 17:35:51'),(5,3,'2023-05-31 17:35:56'),(6,3,'2023-05-31 17:36:00'),(6,3,'2023-05-31 17:36:12'),(4,3,'2023-05-31 17:36:22'),(3,3,'2023-05-31 17:41:56'),(1,3,'2023-05-31 17:42:25'),(1,5,'2023-05-31 17:47:15'),(4,3,'2023-05-31 17:53:34'),(6,3,'2023-05-31 17:53:39'),(4,5,'2023-05-31 17:59:16'),(5,5,'2023-05-31 17:59:23'),(6,5,'2023-05-31 17:59:27'),(4,5,'2023-05-31 17:59:32'),(6,5,'2023-05-31 17:59:36'),(6,5,'2023-05-31 17:59:40'),(5,5,'2023-05-31 17:59:49'),(3,5,'2023-05-31 18:00:07'),(3,5,'2023-05-31 18:02:14'),(2,5,'2023-05-31 18:02:28'),(1,5,'2023-05-31 18:02:34'),(3,5,'2023-05-31 18:02:38'),(4,5,'2023-05-31 18:06:31'),(2,5,'2023-05-31 18:11:02'),(6,5,'2023-05-31 18:11:59'),(4,5,'2023-05-31 18:12:06'),(1,3,'2023-05-31 18:13:38'),(3,3,'2023-05-31 18:13:51'),(3,3,'2023-05-31 18:13:59'),(1,3,'2023-05-31 18:14:09'),(1,3,'2023-05-31 18:14:16'),(1,3,'2023-05-31 18:14:22'),(1,3,'2023-05-31 18:14:28'),(6,3,'2023-05-31 18:19:19'),(4,3,'2023-05-31 18:19:31'),(4,3,'2023-05-31 18:19:38'),(5,3,'2023-05-31 18:19:47'),(6,3,'2023-05-31 18:19:51'),(5,3,'2023-05-31 18:20:01'),(4,5,'2023-05-31 18:33:43'),(5,5,'2023-05-31 18:33:51'),(4,5,'2023-05-31 18:33:59'),(6,5,'2023-05-31 18:34:10'),(5,5,'2023-05-31 18:34:20'),(6,5,'2023-05-31 18:34:25'),(6,5,'2023-05-31 18:37:26'),(1,3,'2023-05-31 18:38:03'),(2,3,'2023-05-31 18:38:14'),(2,3,'2023-05-31 18:38:18'),(1,3,'2023-05-31 18:38:23'),(8,3,'2023-05-31 18:44:47'),(2,5,'2023-05-31 21:10:13'),(2,5,'2023-05-31 21:10:22'),(3,5,'2023-05-31 21:10:28'),(3,5,'2023-05-31 21:10:32'),(3,5,'2023-05-31 21:10:45'),(1,5,'2023-05-31 21:10:53'),(1,5,'2023-05-31 21:11:00'),(4,5,'2023-05-31 21:11:47'),(6,5,'2023-05-31 21:11:54'),(4,5,'2023-05-31 21:12:00');
+INSERT INTO `nivel_ultimovisto` VALUES (3,3,'2023-05-31 22:38:46'),(2,3,'2023-05-31 22:38:51'),(1,3,'2023-05-31 22:38:56'),(1,3,'2023-05-31 22:41:41'),(5,3,'2023-05-31 22:42:06'),(4,3,'2023-05-31 22:42:10'),(4,3,'2023-05-31 22:42:14');
 /*!40000 ALTER TABLE `nivel_ultimovisto` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -366,12 +369,10 @@ CREATE TABLE `subniveles` (
   `fecha_creacion` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id_video`),
   KEY `NivelPadre` (`NivelPadre`),
-  KEY `Alumno` (`Alumno`),
   KEY `Curso` (`Curso`),
   CONSTRAINT `subniveles_ibfk_1` FOREIGN KEY (`NivelPadre`) REFERENCES `niveles` (`idnivel`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `subniveles_ibfk_2` FOREIGN KEY (`Alumno`) REFERENCES `usuario` (`ID_Usuario`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `subniveles_ibfk_3` FOREIGN KEY (`Curso`) REFERENCES `curso` (`ID_Curso`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  CONSTRAINT `subniveles_ibfk_2` FOREIGN KEY (`Curso`) REFERENCES `curso` (`ID_Curso`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -380,7 +381,7 @@ CREATE TABLE `subniveles` (
 
 LOCK TABLES `subniveles` WRITE;
 /*!40000 ALTER TABLE `subniveles` DISABLE KEYS */;
-INSERT INTO `subniveles` VALUES (1,'Niveles/ Henry89/Screen Recording - Made with FlexClip (3).mp4','Screen Recording - Made with FlexClip (3).mp4','video/mp4','video/mp4',1,5,1,1,'2023-05-30 23:11:00'),(2,'Niveles/ Henry89/Screen Recording - Made with FlexClip (3).mp4','Screen Recording - Made with FlexClip (3).mp4','video/mp4','video/mp4',2,5,1,1,'2023-05-30 23:11:05'),(3,'Niveles/ Henry89/1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','video/mp4','video/mp4',2,5,1,0,'2023-05-30 23:11:20'),(4,'Niveles/ Henry89/1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','video/mp4','video/mp4',3,5,2,1,'2023-05-30 23:16:13'),(5,'Niveles/ Henry89/1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','video/mp4','video/mp4',4,5,2,1,'2023-05-30 23:16:31'),(6,'Niveles/ Henry89/Screen Recording - Made with FlexClip (3).mp4','Screen Recording - Made with FlexClip (3).mp4','video/mp4','video/mp4',6,5,2,1,'2023-05-30 23:47:18'),(7,'Niveles/RonaldMAC7/Screen Recording - Made with FlexClip (3).mp4','Screen Recording - Made with FlexClip (3).mp4','video/mp4','video/mp4',7,3,4,1,'2023-05-31 17:24:05'),(8,'Niveles/RonaldMAC7/1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','video/mp4','video/mp4',8,3,4,0,'2023-05-31 17:24:19');
+INSERT INTO `subniveles` VALUES (1,'Niveles/ Henry89/1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','video/mp4','video/mp4',3,3,2,0,'2023-05-31 22:37:08'),(2,'Niveles/ Henry89/1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','video/mp4','video/mp4',4,3,2,1,'2023-05-31 22:37:15'),(3,'Niveles/ Henry89/1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','1812042_CiroSergioLedezmaGarcia_VideoDelPIA.mp4','video/mp4','video/mp4',6,3,2,1,'2023-05-31 22:37:22'),(4,'Niveles/ Henry89/Screen Recording - Made with FlexClip (3).mp4','Screen Recording - Made with FlexClip (3).mp4','video/mp4','video/mp4',1,3,1,0,'2023-05-31 22:40:48'),(5,'Niveles/ Henry89/1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','1812042_CiroSergioLedezmaGarcia_AnilloyEsfera_1.mp4','video/mp4','video/mp4',2,3,1,1,'2023-05-31 22:41:12');
 /*!40000 ALTER TABLE `subniveles` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -670,4 +671,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-31 15:14:00
+-- Dump completed on 2023-05-31 16:43:55

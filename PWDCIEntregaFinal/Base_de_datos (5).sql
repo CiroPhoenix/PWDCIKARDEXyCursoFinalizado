@@ -251,12 +251,12 @@ CREATE TABLE Subniveles (
    Curso int,
   `visto` tinyint(1) NOT NULL DEFAULT 0,
   foreign key(NivelPadre)references Niveles(`idnivel`)on delete cascade on update cascade,
- foreign key(Alumno)references usuario(`ID_Usuario`)on delete cascade on update cascade,
+
   foreign key(Curso)references curso(`ID_Curso`)on delete cascade on update cascade,
   `fecha_creacion` timestamp NOT NULL DEFAULT current_timestamp()
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
   
-
+drop table Subniveles;
  Select * from Subniveles;
 
    UPDATE Subniveles SET visto='1' WHERE id_video='3';

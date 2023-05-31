@@ -13,6 +13,7 @@ $nombre_usuario = $_SESSION["Nombre_usuario_Usuario"];
 $NivelPadre =$_POST['NivelPadre'];
 $ID= $_REQUEST['ID_Curso'];
 $vista= '0';
+$Alumno='0';
 
 $query = "SELECT IFNULL(MAX(id_video), 0) + 1 AS siguiente_id FROM  Subniveles WHERE  NivelPadre = '$NivelPadre'";
 $resultado = mysqli_query($conn, $query);
@@ -48,7 +49,7 @@ if (!is_dir("Niveles/" . $nombre_usuario)) {
 if (move_uploaded_file($_FILES["video"]["tmp_name"], $ruta_video)) {
     // Insertar los datos del video en la base de datos
 
-$query ="INSERT INTO Subniveles(NivelPadre, id_video, path_video, nombre_video, type_video, content_type,Curso,visto)values('$NivelPadre','$id_video', '$ruta_video', '$nombre_video', '$tipo_video', '$tipo_video','$ID','$vista')";
+$query ="INSERT INTO Subniveles(NivelPadre, id_video, path_video, nombre_video, type_video, content_type,Curso,visto,Alumno)values('$NivelPadre','$id_video', '$ruta_video', '$nombre_video', '$tipo_video', '$tipo_video','$ID','$vista','$Alumno')";
 
 
 //$query = "INSERT INTO curso(Instructor_Curso, Niveles_Curso, Costo_Curso, Descripcion_Curso, Calificacion_Curso, Foto_Curso, Titulo_Curso, Foto_Curso2, Foto_Curso3, Categoria_Curso, path_video, nombre_video, type_video, content_type, nombre_usuario) VALUES ('$id_usuario','$Niveles_Curso','$Costo_Curso','$Descripcion_Curso','$Calificacion_Curso','$Foto_Curso','$Titulo_Curso','$Foto_Curso2','$Foto_Curso3','$Categoria_Curso''$ruta_video', '$nombre_video', '$tipo_video', '$tipo_video','$nombre_usuario')";
